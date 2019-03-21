@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>citySVG</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
+    <script src="script.js" async defer></script>
+		<div id='SvgHolder'></div>
+    <div class='ButtonBox'>
+      <div class='Button' onclick="citySvg.updateWardData(citySvg.getRelativeTurnoutPercentage)">
+        Turnout %
+      </div>
+      <div class='Button'>
+        <span onclick="citySvg.testTransform()">
+          Test transform, Ward Num: 
+        </span>
+        <input id='WardNum' type='text' style='width:50px;' onclick='null'/>
+      </div>
+      <div class='Button' onclick='ResetSTLCityMap()'>
+        Reset map
+      </div>
+    </div>
+  </body>
+</html>

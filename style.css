@@ -1,0 +1,49 @@
+#SvgHolder{
+  height:800px;
+  width:530px;
+  position:relative;
+}
+
+#DataScale {
+  height:400px;
+  width:40px;
+  float:left;
+  margin-left:20px;
+  text-align:center;
+  position: absolute;
+}
+
+#HigherLabel {
+  color:white;
+  width:100%
+}
+
+#LowerLabel {
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+.ButtonBox {
+
+}
+
+.Button {
+  display:inline-block;
+  padding:5px;
+  color:white;
+  background-color:black;
+  cursor:pointer;
+}
+
+.PrecinctGroup {	
+	transition:opacity .25s linear;
+}
+
+.PrecinctGroup:hover {
+  opacity:0.8;
+}
+
+.ZoomedWard {
+  
+}
