@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import cityPrecincts from './precincts.svg';
+import SvgBox from './components/svg_box';
 
 function App() {
   return (
@@ -13,9 +13,7 @@ function App() {
         </span>
         <img src={logo} className="App-logo" alt="logo"/>
       </header>
-      <div className="SvgBox">
-        <img src={cityPrecincts} alt="precincts" id="citySVG" />
-      </div>
+      <SvgBox />
     </div>
   );
 }
